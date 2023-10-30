@@ -1,7 +1,6 @@
 <Database>
 	<Device>
 		<ChipInfo Vendor="AirM2M" Name="AIR001Dev" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" Core="JLINK_CORE_CORTEX_M0" />
-		<!-- 512 KB internal code flash bank with 1 loader -->
 		<FlashBankInfo Name="Internal code flash" BaseAddr="0x08000000" AlwaysPresent="1">
 			<LoaderInfo Name="Default" MaxSize="0x8000" Loader="../FLM/AIR001xx_32.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" />
         </FlashBankInfo>
